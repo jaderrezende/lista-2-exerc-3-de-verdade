@@ -1,6 +1,7 @@
-def avarege(list):
-    r= int
+def average(list):
+    r= 0
     for i in list:
-        z+=i
-    z/=len(list)
-    return(z)
+        r+=i
+    r= r/len(list)
+    return(r)
+print(average([1,2,3,4]))
